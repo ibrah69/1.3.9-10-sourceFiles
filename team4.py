@@ -65,4 +65,10 @@ if __name__ == '__main__':
               # move('bbb', 'ccc', 0, 0) returns 'b'.
               my_score=0, 
               their_score=0,
-              result='b')             
+              result='b')   
+    if 'b' in their_history(-5):
+        return 'b'
+    if 'c' in their_history(-1):
+        return 'b'
+    else:
+        reaturn 'c'
